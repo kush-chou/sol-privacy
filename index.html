@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Sol: Sovereign AI Journal</title>
+    <style>
+        :root {
+            --bg-color: #121110;
+            --card-bg: #1c1a18;
+            --text-primary: #f2eee9;
+            --text-secondary: #a8a29e;
+            --accent: #e09848;
+            --border: #2e2a27;
+        }
+        @media (prefers-color-scheme: light) {
+            :root {
+                --bg-color: #fbf9f6;
+                --card-bg: #ffffff;
+                --text-primary: #1c1917;
+                --text-secondary: #78716c;
+                --accent: #d97706;
+                --border: #e7e5e4;
+            }
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            margin: 0;
+            padding: 40px 20px;
+            line-height: 1.65;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            max-width: 720px;
+            width: 100%;
+        }
+        .header {
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 24px;
+            margin-bottom: 32px;
+        }
+        h1 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin: 0 0 8px 0;
+            letter-spacing: -0.02em;
+        }
+        .subtitle {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            margin: 0;
+        }
+        .card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            padding: 24px;
+            margin-bottom: 24px;
+        }
+        h2 {
+            font-size: 1.25rem;
+            margin-top: 0;
+            margin-bottom: 12px;
+            color: var(--accent);
+        }
+        p {
+            margin: 0 0 12px 0;
+        }
+        p:last-child {
+            margin-bottom: 0;
+        }
+        ul {
+            margin: 8px 0 12px 0;
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 6px;
+        }
+        .highlight-box {
+            background-color: rgba(224, 152, 72, 0.08);
+            border-left: 3px solid var(--accent);
+            padding: 14px 18px;
+            border-radius: 0 10px 10px 0;
+            margin: 16px 0;
+        }
+        .footer {
+            margin-top: 48px;
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            border-top: 1px solid var(--border);
+            padding-top: 24px;
+        }
+        a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Privacy Policy</h1>
+            <p class="subtitle">Sol: Sovereign On-Device AI Journal &bull; Effective Date: September 19, 2026</p>
+        </div>
+
+        <div class="highlight-box">
+            <strong>Core Privacy Guarantee:</strong> Sol operates under a strict principle of <em>Radical Data Sovereignty</em>. 100% of your diary reflections, conversational chapters, and AI memory models execute directly on your phone hardware. Zero personal data or thoughts leave your device.
+        </div>
+
+        <div class="card">
+            <h2>1. Zero Cloud Data Collection</h2>
+            <p>Sol is designed with an offline-first, private-by-default architecture:</p>
+            <ul>
+                <li><strong>Local AI Inference:</strong> All conversational intelligence (Gemma) and semantic memory retrieval (EmbeddingGemma) run on-device using Google LiteRT and hardware acceleration.</li>
+                <li><strong>Zero Server Logging:</strong> We do not operate remote tracking servers. Your journal entries, tone preferences, session summaries, and insights are never uploaded to any cloud server or shared with third parties.</li>
+                <li><strong>No Account Required:</strong> You do not need to register, provide an email address, or create an account to use Sol.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>2. Permissions Used</h2>
+            <p>Sol requests only the permissions necessary to provide its on-device functionality:</p>
+            <ul>
+                <li><strong>Audio Recording (<code>android.permission.RECORD_AUDIO</code>):</strong> Used solely for speech-to-text dictation when you choose to dictate your entries. Audio is transcribed locally and is never uploaded.</li>
+                <li><strong>Notifications (<code>android.permission.POST_NOTIFICATIONS</code>):</strong> Used to deliver optional circadian reflection reminders generated locally by your device.</li>
+                <li><strong>Google Play Billing (<code>com.android.vending.BILLING</code>):</strong> Used securely through Google Play to unlock the optional "Sol Complete" lifetime license. Payment information is handled entirely by Google Play.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>3. Local Storage & Complete Data Control</h2>
+            <p>All application databases (chat logs, vector embeddings, and historical insights) reside exclusively within your device’s secure internal sandbox.</p>
+            <p>You have full ownership of your data at all times. Clearing application storage or uninstalling Sol permanently and irreversibly erases all local data from your device.</p>
+        </div>
+
+        <div class="card">
+            <h2>4. Children’s Privacy</h2>
+            <p>Sol does not target or knowingly collect data from children under the age of 13. The app is a self-contained productivity and journaling companion.</p>
+        </div>
+
+        <div class="card">
+            <h2>5. Developer Contact</h2>
+            <p>For questions or support regarding this privacy policy, contact:</p>
+            <p><strong>Developer:</strong> Kushagra Choudhary<br>
+            <strong>Email:</strong> <a href="mailto:kushagra26407@gmail.com">kushagra26407@gmail.com</a></p>
+        </div>
+
+        <div class="footer">
+            &copy; 2026 Sol Diary &bull; Sovereign On-Device Intelligence
+        </div>
+    </div>
+</body>
+</html>
